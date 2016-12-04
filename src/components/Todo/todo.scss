@@ -1,0 +1,49 @@
+$checkbox-size: 30px;
+
+.todo-item {
+  font-size: 24px;
+  margin-top: 10px;
+
+  label {
+    border: 1px solid $gray;
+    cursor: pointer;
+    display: block;
+    height: $checkbox-size;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: top;
+    width: $checkbox-size;
+    margin-top: 3px;
+
+    &.complete:before {
+      content: '\2713';
+    }
+
+    input[type=checkbox] {
+      display: none;
+    }
+  }
+
+  input {
+    font-family: inherit;
+    font-size: inherit;
+
+    &[type=text] {
+      border: 0;
+      padding: 0;
+      width: 100%;
+    }
+  }
+
+  del {
+    color: $gray;
+  }
+
+  .delete-button {
+    font-size: inherit;
+
+    &:hover {
+      color: $red;
+    }
+  }
+}

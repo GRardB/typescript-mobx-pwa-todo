@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "outDir": "./dist/",
+        "paths": {
+            "*": [
+                "src/*",
+                "src/*/index"
+            ]
+        },
+        "removeComments": true,
+        "sourceMap": false,
+        "target": "es5"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

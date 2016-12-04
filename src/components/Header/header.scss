@@ -1,0 +1,14 @@
+.header {
+  background: $yellow-light;
+  margin-bottom: 10px;
+  overflow: hidden;
+
+  .add-todo-icon {
+    font-size: 32px;
+    transition: transform 0.2s linear;
+
+    &:hover {
+      transform: scale(2);
+    }
+  }
+}
