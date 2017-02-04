@@ -1,6 +1,4 @@
-import { observable, useStrict } from 'mobx';
-
-useStrict(true);
+import { observable } from 'mobx';
 
 export default class TodosStore {
     @observable todos = [];
